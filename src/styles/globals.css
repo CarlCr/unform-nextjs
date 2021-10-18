@@ -1,0 +1,29 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  background: #29323c;
+  background-color: #29323c;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+button{
+  cursor: pointer;
+}
+* {
+  transition:all 0.3s ease;
+  box-sizing: border-box;
+}
+
+.label_error{
+  font-size:0.60rem!important;
+  position:absolute;
+  left: 0;
+  top: 44px;
+  color: red;
+}
