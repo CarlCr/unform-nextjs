@@ -1,0 +1,176 @@
+/*------------- Container ------------------*/
+
+.container{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: linear-gradient(to right, #29323c 0%, black 100%);
+ }
+
+/*------------- Main ------------------*/
+
+.main{
+  width: 100%;
+  height:80%;
+  position: relative;
+  display: flex;
+  max-width: 1000px;
+  margin-inline: auto;
+  .animation_warpper{
+    width: 60%;
+    height:100%;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    .animation{
+      width:70%;
+    }
+  }
+  .form_wrapper{
+    width: 40%;
+    height:100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    form{
+      width: 100%;
+      display: flex;
+      align-items: flex-start;
+      flex-direction: column;
+      h1{
+        color:#fff;
+        font-size:1.2rem;
+      }
+      p{
+        color: rgba(255, 255, 255, 0.5);
+        font-size:.80rem;
+      }
+      .input_container{
+        display: flex;
+        width: 60%;
+        flex-direction: column;
+        button{
+          background:#6C5ECF;
+          border-radius: 6px;
+          border:none;
+          margin-top: 20px;
+          padding: 10px;
+          color: #fff;
+        }
+        .sigin_link{
+          color: rgba(255, 255, 255, 0.5);
+          font-size:0.75rem;
+          text-align: center;
+          span{
+            color: #6C5ECF;
+            font-weight: bold;
+          }
+        }
+        section{
+          display: flex;
+          width: 100%;
+          margin-bottom: 10px;
+          border: 1px solid #555;
+          background-color: #000;
+          padding: 10px 10px;
+          position: relative;
+          border-radius:6px;
+          input:-webkit-autofill{
+            -webkit-box-shadow: 0 0 0 1000px #000 inset !important;
+            -webkit-text-fill-color: #fff !important;
+          } 
+          input{
+            margin-left: 10px;
+            color: #fff;
+            background: #000;
+            border: none;
+            flex: 1;
+            outline: none;
+            &::-webkit-outer-spin-button,
+            &::-webkit-inner-spin-button {
+              -webkit-appearance: none;
+              margin: 0;
+            }
+            span{
+              font: size 12px !important;;
+            }
+            &:-webkit-autofill{
+              -webkit-box-shadow: 0 0 0 1000px #000 inset !important;
+              -webkit-text-fill-color: #fff !important;
+            }
+          }
+        }
+        .input_error{
+          animation: shake .6s cubic-bezier(.36, .07, .19, .97) both;
+          margin-bottom: 25px!important;
+          box-shadow:
+          1px 1px red,
+          2px 2px red,
+          3px 3px red;
+          border: 1px solid red!important;
+         }
+
+        .input_error,
+        .input_wrapper{
+          display: flex;
+          width: 100%;
+          margin-bottom: 10px;
+          background-color: #000;
+          padding: 10px 10px;
+          position: relative;
+          border: 1px solid #555;
+          border-radius:6px;
+          input:-webkit-autofill{
+            -webkit-box-shadow: 0 0 0 1000px #000 inset !important;
+            -webkit-text-fill-color: #fff !important;
+          } 
+          input{
+            margin-left: 10px;
+            color: #fff;
+            background: #000;
+            border: none;
+            flex: 1;
+            outline: none;
+            &::-webkit-outer-spin-button,
+            &::-webkit-inner-spin-button {
+              -webkit-appearance: none;
+              margin: 0;
+            }
+            span{
+              font: size 12px !important;;
+            }
+            &:-webkit-autofill{
+              -webkit-box-shadow: 0 0 0 1000px #000 inset !important;
+              -webkit-text-fill-color: #fff !important;
+            }
+          }
+          img{
+            width: 16px;
+            height: 16px;
+          }
+        }
+      }
+    }
+  }
+ }
+
+
+/*------------- Animation ------------------*/
+ 
+ 
+@keyframes shake {
+  10%, 90% {
+      transform: translate3d(-1px, 0, 0);
+  }
+  20%, 80% {
+      transform: translate3d(2px, 0, 0);
+  }
+  30%, 50%, 70% {
+      transform: translate3d(-4px, 0, 0);
+  }
+  40%, 60% {
+      transform: translate3d(4px, 0, 0);
+  }
+}
