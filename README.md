@@ -23,7 +23,6 @@ The `pages/api` directory is mapped to `/api/*`. Files in this directory are tre
 
 To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
@@ -31,10 +30,10 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 
 ## Links
 
-- [SwiperJs - React](https://swiperjs.com/react)  - How to use swiper js in React.js.
+- [Yup](https://www.npmjs.com/package/yup)  - Yup is a JavaScript schema builder for value parsing and validation.
 
 
-- [fontawesome Next.js](https://dev.to/vuongddang/how-to-use-fontawesome-in-next-js-5bl5) - How to use Fontawesome in Next.js.
+- [Lottie](https://lottiefiles.com/) - LottieFiles provides all the tools that you need to create, edit, test and display Lottie animations.
 
 -[Unform] (https://unform.dev/recipes/typescript) - ReactJs library for manipulate complex forms
 
